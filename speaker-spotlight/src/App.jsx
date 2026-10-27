@@ -5,7 +5,7 @@ const speakers = [
     name: 'Martin Andrijasevic',
     title: 'Junior Front-End Developer',
     company: 'Crawfordsville Code Co.',
-    photo: 'src/assets/martin.jpg',
+    photo: 'public/images/martin.jpg',
     talkTitle: 'From Plain JS to React: My First Month',
     summary:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus. Donec ullamcorper nulla non metus auctor fringilla.',
@@ -19,7 +19,7 @@ const speakers = [
     name: 'Hamzah Al-Emad',
     title: 'Staff Engineer',
     company: 'Hoosier Health Tech',
-    photo: 'src/assets/hamzah.jpg',
+    photo: 'public/images/hamzah.jpg',
     talkTitle: 'Accessibility Is Not an Afterthought',
     summary:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus. Donec ullamcorper nulla non metus auctor fringilla.',
@@ -33,7 +33,7 @@ const speakers = [
     name: 'Aldo Stheban',
     title: 'Engineering Manager',
     company: 'Naptown Software',
-    photo: 'src/assets/aldo.jpg',
+    photo: 'public/images/aldo.jpg',
     talkTitle: 'Scaling Small Teams Without Burning Out',
     summary:
       'Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum.',
