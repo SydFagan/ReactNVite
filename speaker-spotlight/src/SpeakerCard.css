@@ -1,0 +1,75 @@
+.speaker-card {
+  width: 100%;
+  max-width: 480px;
+  background: linear-gradient(180deg, #1d1813 0%, #14110d 100%);
+  color: #e8dcc4;
+  border: 1px solid #2f2619;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.6),
+    0 0 24px rgba(232, 168, 56, 0.15);
+  border-top: 6px solid #e8a838;
+}
+
+.speaker-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #e8a838;
+  box-shadow: 0 0 16px rgba(232, 168, 56, 0.45);
+}
+
+.speaker-name {
+  margin: 1rem 0 0.25rem;
+  font-size: 1.5rem;
+  color: #f4ead3;
+}
+
+.speaker-role {
+  margin: 0;
+  color: #9a8d78;
+}
+
+.talk-title {
+  margin: 1.25rem 0 0.5rem;
+  color: #4aa3df;
+  font-size: 1.2rem;
+}
+
+.talk-summary {
+  margin: 0 0 1.25rem;
+  text-align: left;
+}
+
+.topic-list {
+  background: #0e0c09;
+  border: 1px solid #2f2619;
+  border-left: 4px solid #4aa3df;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  text-align: left;
+}
+
+.topic-list h4 {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  color: #e8a838;
+}
+
+.topic-list ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.topic-list li {
+  margin-bottom: 0.35rem;
+}
+
+.topic-list li::marker {
+  color: #e8a838;
+}
